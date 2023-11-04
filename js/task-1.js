@@ -1,6 +1,6 @@
 function slugify(title) {
   const massif = title.split(' ');
-  const slug = `"${massif.join('-').toLowerCase()}"`;
+  const slug = `${massif.join('-').toLowerCase()}`;
 
   return slug;
 }
